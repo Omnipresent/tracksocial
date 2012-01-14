@@ -7,5 +7,5 @@ Feature: Creating Goals
     Given I am on the homepage
     When I follow "New Goal"
     And I fill in "Goal" with "Practice Rails"
-    And I press "Create Project"
+    And I press "Create Goal"
     Then I should see "Goal has been created"
